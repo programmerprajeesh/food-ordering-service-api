@@ -1,3 +1,22 @@
+Do the following steps to install api
+
+Create a database and update .env file.
+Do "php artisan migrate:fresh --seed" to seed dummy data + all migration
+Use "php artisan route:list" to know all available route codes.
+Following are the dummy user data
+
+User
+email => test@foodservice.com password => password@test
+
+Admin
+email => admin@foodservice.com password => password@admin
+
+Superadmin
+email => superadmin@foodservice.com password => password@superadmin
+
+Laravel version 8 PHP version 7.3 For access controll both "laravel/sanctum" & "spatie/laravel-permission" are used.
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
